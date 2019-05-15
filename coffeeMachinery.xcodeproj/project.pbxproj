@@ -12,6 +12,9 @@
 		8BF7F860228BE76F00605E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7F85E228BE76F00605E01 /* Main.storyboard */; };
 		8BF7F862228BE77000605E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7F861228BE77000605E01 /* Assets.xcassets */; };
 		8BF7F865228BE77000605E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7F863228BE77000605E01 /* LaunchScreen.storyboard */; };
+		8BF7F86D228BE7AE00605E01 /* CoffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F86C228BE7AE00605E01 /* CoffeeMachine.swift */; };
+		8BF7F86F228C032F00605E01 /* coffeeMachineSuperclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F86E228C032F00605E01 /* coffeeMachineSuperclass.swift */; };
+		8BF7F871228C053000605E01 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7F870228C053000605E01 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8BF7F861228BE77000605E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BF7F864228BE77000605E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BF7F866228BE77000605E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF7F86C228BE7AE00605E01 /* CoffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMachine.swift; sourceTree = "<group>"; };
+		8BF7F86E228C032F00605E01 /* coffeeMachineSuperclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeMachineSuperclass.swift; sourceTree = "<group>"; };
+		8BF7F870228C053000605E01 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,8 @@
 		8BF7F84E228BE76F00605E01 = {
 			isa = PBXGroup;
 			children = (
+				8BF7F870228C053000605E01 /* RoundedButton.swift */,
+				8BF7F86C228BE7AE00605E01 /* CoffeeMachine.swift */,
 				8BF7F859228BE76F00605E01 /* coffeeMachinery */,
 				8BF7F858228BE76F00605E01 /* Products */,
 			);
@@ -56,6 +64,7 @@
 			children = (
 				8BF7F85A228BE76F00605E01 /* AppDelegate.swift */,
 				8BF7F85C228BE76F00605E01 /* ViewController.swift */,
+				8BF7F86E228C032F00605E01 /* coffeeMachineSuperclass.swift */,
 				8BF7F85E228BE76F00605E01 /* Main.storyboard */,
 				8BF7F861228BE77000605E01 /* Assets.xcassets */,
 				8BF7F863228BE77000605E01 /* LaunchScreen.storyboard */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF7F86D228BE7AE00605E01 /* CoffeeMachine.swift in Sources */,
+				8BF7F871228C053000605E01 /* RoundedButton.swift in Sources */,
 				8BF7F85D228BE76F00605E01 /* ViewController.swift in Sources */,
+				8BF7F86F228C032F00605E01 /* coffeeMachineSuperclass.swift in Sources */,
 				8BF7F85B228BE76F00605E01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
